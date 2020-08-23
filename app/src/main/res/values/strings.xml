@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Stopwatch</string>
+    <string name="sub_splash_text">Task timing improves efficiency</string>
+    <string name="splash_text">Task timer</string>
+    <string name="get_started">Get Started</string>
+    <string name="start">Start Now</string>
+    <string name="stop">Finish Session</string>
 </resources>
