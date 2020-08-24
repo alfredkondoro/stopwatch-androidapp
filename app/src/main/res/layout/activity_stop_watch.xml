@@ -10,10 +10,11 @@
 
     <ImageView
         android:id="@+id/imgClockBg"
-        android:layout_width="326dp"
-        android:layout_height="294dp"
-        android:layout_marginTop="28dp"
+        android:layout_width="272dp"
+        android:layout_height="239dp"
+        android:layout_marginTop="52dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/bgcircle" />
@@ -44,7 +45,7 @@
         android:id="@+id/buttonStart"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="160dp"
         android:background="@drawable/round_button_go"
         android:text="@string/start"
         android:textColor="@color/colorBackground"

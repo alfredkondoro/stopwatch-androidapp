@@ -14,7 +14,6 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     TextView txtSplash, txtSubSplash;
     Button buttonGet;
-    Animation atg, btgone, btgtwo;
     ImageView imgSplash;
 
     @Override
@@ -27,13 +26,6 @@ public class MainActivity extends AppCompatActivity {
         buttonGet = findViewById (R.id.buttonGet);
         imgSplash = findViewById (R.id.imgSplash);
 
-        atg = AnimationUtils.loadAnimation (this, R.anim.atg);
-
-
-        imgSplash.startAnimation (atg);
-        txtSplash.startAnimation (btgone);
-        txtSubSplash.startAnimation (btgone);
-        buttonGet.startAnimation (btgtwo);
 
         buttonGet.setOnClickListener (new View.OnClickListener () {
             @Override

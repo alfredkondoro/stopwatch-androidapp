@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/icget" />
+        app:srcCompat="@drawable/ic_logo" />
 
     <TextView
         android:id="@+id/txtSplash"
@@ -53,7 +53,7 @@
         android:textStyle="bold"
         android:textSize="17sp"
         android:background="@drawable/round_button"
-        android:textColor="@color/colorBackground"
+        android:textColor="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
